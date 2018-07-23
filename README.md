@@ -13,3 +13,8 @@
    + 增加固定时刻表
    + 车头
 
+
+
+# URL(v1.2)
+
+https://shimo.im/docs/N01RiGTdQZEC08Db/ 点击链接查看「URL(v1.2)」，或复制链接用石墨文档 App 打开
