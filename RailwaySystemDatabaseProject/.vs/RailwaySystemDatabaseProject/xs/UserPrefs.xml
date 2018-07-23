@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{D10E5EBD-EC1F-42F4-B385-9F4C2995F89C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Config.cs">
+    <Files>
+      <File FileName="DatabaseManager/DatabaseContext.cs" Line="9" Column="30" />
+      <File FileName="Program.cs" Line="18" Column="1" />
+      <File FileName="Models/Train.cs" Line="1" Column="1" />
+      <File FileName="Models/Staff.cs" Line="40" Column="1" />
+      <File FileName="Models/AllTimeTable.cs" Line="12" Column="3" />
+      <File FileName="Controllers/Infrastructure/TrainController.cs" Line="40" Column="1" />
+      <File FileName="Config.cs" Line="9" Column="2" />
+      <File FileName="../../../../.nuget/packages/oracle.manageddataaccess.entityframework/12.2.1100/readme.txt" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RailwaySystemDatabaseProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

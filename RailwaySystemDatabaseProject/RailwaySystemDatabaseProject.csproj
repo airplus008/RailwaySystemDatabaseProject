@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <EnvironmentVariables>
+      <Variable name="ASPNETCORE_ENVIRONMENT" value="Development" />
+      <Variable name="ASPNETCORE_ENVIRONMENT" value="Development" />
+    </EnvironmentVariables>
+    <LaunchUrl>/index.html</LaunchUrl>
+    <ApplicationURL>https://localhost:5001</ApplicationURL>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="Controllers\Infrastructure\" />
+    <Folder Include="Controllers\Operation\" />
+    <Folder Include="Controllers\PassengerTransport\" />
+    <Folder Include="Controllers\FreightTransport\" />
+    <Folder Include="Models\" />
+    <Folder Include="DatabaseManager\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.12.0-beta2" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\Values\ValuesController.cs" />
+    <Compile Remove="Models\EmptyClass.cs" />
+    <Compile Remove="Models\User.cs" />
+    <Compile Remove="Models\TrainContext.cs" />
+    <Compile Remove="Controllers\HomeController.cs" />
+    <Compile Remove="Controllers\TestController.cs" />
+    <Compile Remove="DatabaseManager\codeFirst.cs" />
+    <Compile Remove="DatabaseManager\Base.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\index.html" />
+  </ItemGroup>
+</Project>
